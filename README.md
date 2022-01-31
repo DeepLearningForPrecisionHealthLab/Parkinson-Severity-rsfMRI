@@ -10,8 +10,8 @@ This project contains code for our manuscript "Predicting Longitudinal Severity 
 each target and feature type based on mean inner cross-validation performance. Evaluate these models on the held-out data of the outer cross-validation loop. 
 
 ## Main dependencies
-nilearn >= 0.6.2
-scipy >= 1.2.0
-scikit-learn >= 0.20.2
-pandas >= 0.25.3
-numpy >= 1.15.4
+* nilearn >= 0.6.2
+* scipy >= 1.2.0
+* scikit-learn >= 0.20.2
+* pandas >= 0.25.3
+* numpy >= 1.15.4
