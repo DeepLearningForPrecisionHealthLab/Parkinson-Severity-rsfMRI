@@ -18,7 +18,7 @@ UPDRS), do the following:
 6. Save out results to a given directory.
 
 Example:
-python updrstotal_prediction.py --feature ReHo --atlas schaefer --time 2y --outdir <path to output location>
+python updrstotal_prediction.py --feature ReHo --atlas schaefer --time 2y 
 
 See python updrstotal_prediction.py --help for descriptions and valid options for each argument.
 
@@ -47,10 +47,9 @@ dictAtlases = {'basc197': dictBasc['scale197'],
                'schaefer': strSchaeferPath
                }
 
-def run_search(strMeasure, strAtlasName, strTargetTime, strOutDir):
+def run_search(strMeasure, strAtlasName, strTargetTime):
 
-    strOutDir = os.path.join(strOutDir,    
-        f'UPDRS_total_{strTargetTime}_abs/{strMeasure}_{strAtlasName}')
+    strOutDir = f'UPDRS_total_{strTargetTime}_abs/{strMeasure}_{strAtlasName}'
     
     # check if already run
     if os.path.exists(os.path.join(strOutDir, 'summary.xlsx')):
@@ -162,7 +161,6 @@ if __name__ == '__main__':
     parser.add_argument('--feature', '-f', type=str, choices=['ReHo', 'falff'], help='fMRI measurement type')
     parser.add_argument('--atlas', '-a', type=str, choices=['basc197', 'basc444', 'schaefer'], help='Brain atlas name')
     parser.add_argument('--time', '-t', type=str, choices=['base', '1y', '2y', '4y'], help='Prediction target time')
-    parser.add_argument('--outdir', '-o', type=str, help='Output base directory')
     args = parser.parse_args()
     print(args.feature, args.atlas, args.time)
-    run_search(args.feature, args.atlas, args.time, args.outdir)
+    run_search(args.feature, args.atlas, args.time)
