@@ -1,3 +1,7 @@
+"""
+Stratified and grouped cross-validation extensions to Scikit-learn.
+"""
+
 from sklearn.model_selection._split import _BaseKFold, _RepeatedSplits
 import numpy as np
 from collections import Counter, defaultdict

@@ -2,8 +2,8 @@
 """
 After running the model searches, identify the best performing configuration for
 each target and feature type. Evaluate these configurations on the outer CV test folds. 
-______
-11/1/19
+
+Copyright (c) 2021 The University of Texas Southwestern Medical Center. See LICENSE.md for details.
 """
 __author__ = 'Kevin P Nguyen'
 __email__ = 'kevin3.nguyen@utsouthwestern.edu'

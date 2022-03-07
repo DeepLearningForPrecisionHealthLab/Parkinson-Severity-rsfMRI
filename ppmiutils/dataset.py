@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 """
 Functions for quickly loading in clinical data tables
-______
-3/1/19
+
+Copyright (c) 2021 The University of Texas Southwestern Medical Center. See LICENSE.md for details.
 """
 import os
 import pandas as pd

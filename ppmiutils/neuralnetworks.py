@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 """
 Module for generating random NN .ini files and parsing them to build models
-______
-10/11/18
+
+Copyright (c) 2021 The University of Texas Southwestern Medical Center. See LICENSE.md for details.
 """
 __author__ = 'Kevin P Nguyen'
 __email__ = 'kevin3.nguyen@utsouthwestern.edu'

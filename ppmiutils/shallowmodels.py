@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 """
-Docstring
-______
-3/5/19
+Copyright (c) 2021 The University of Texas Southwestern Medical Center. See LICENSE.md for details.
 """
 
 import os

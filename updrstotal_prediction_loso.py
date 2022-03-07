@@ -3,6 +3,8 @@
 Train a predictor of UPDRS from ReHo and fALFF features. Use leave-one-site out
 nested CV. For each outer fold, leave out one of the three largest sites in the
 dataset. For the inner CV, use a standard stratified K-fold split.
+
+Copyright (c) 2021 The University of Texas Southwestern Medical Center. See LICENSE.md for details.
 """
 __author__ = 'Kevin P Nguyen'
 __email__ = 'kevin3.nguyen@utsouthwestern.edu'

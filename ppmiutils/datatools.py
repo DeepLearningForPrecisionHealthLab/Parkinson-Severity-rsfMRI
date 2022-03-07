@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 """
 Functions for handling the PPMI CSV files
-______
-2/12/19
+
+Copyright (c) 2021 The University of Texas Southwestern Medical Center. See LICENSE.md for details.
 """
 import glob
 import os

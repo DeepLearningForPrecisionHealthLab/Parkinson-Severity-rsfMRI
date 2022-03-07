@@ -1,5 +1,6 @@
-# Predicting Longitudinal Severity in Parkinson’s Disease using Current Clinical and Neuroimaging Measures
-This project contains code for our manuscript "Predicting Longitudinal Severity in Parkinson’s Disease using Current Clinical and Neuroimaging Measures" current under journal review. 
+# Predicting Parkinson's disease trajectory using clinical and neuroimaging baseline measures
+Nguyen KP, Raval V, Treacher A, Mellema C, Yu FF, Pinho MC, et al. (2021): Predicting Parkinson's disease trajectory using clinical and neuroimaging baseline measures. Parkinsonism & related disorders 85: 44–51.
+[10.1016/j.parkreldis.2021.02.0260](https://doi.org/10.1016/j.parkreldis.2021.02.0260)
 
 ## Files
 ### Model selection and hyperparameter optimization
@@ -15,3 +16,34 @@ each target and feature type based on mean inner cross-validation performance. E
 * scikit-learn >= 0.20.2
 * pandas >= 0.25.3
 * numpy >= 1.15.4
+
+## License
+Copyright (c) 2021 The University of Texas Southwestern Medical Center.
+All rights reserved.
+ 
+Redistribution and use in source and binary forms, with or without
+modification, are permitted for academic and research use only (subject to the limitations in the disclaimer below) provided that the following conditions are met:
+ 
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holders nor the names of its
+contributors may be used to endorse or promote products derived from this
+software without specific prior written permission.
+ 
+NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY
+THIS LICENSE. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER
+IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.

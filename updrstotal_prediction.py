@@ -22,6 +22,8 @@ python updrstotal_prediction.py --feature ReHo --atlas schaefer --time 2y
 
 See python updrstotal_prediction.py --help for descriptions and valid options for each argument.
 
+Copyright (c) 2021 The University of Texas Southwestern Medical Center. See LICENSE.md for details.
+
 """
 __author__ = 'Kevin P Nguyen'
 __email__ = 'kevin3.nguyen@utsouthwestern.edu'
