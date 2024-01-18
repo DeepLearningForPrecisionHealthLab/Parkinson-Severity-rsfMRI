@@ -3,12 +3,20 @@ Nguyen KP, Raval V, Treacher A, Mellema C, Yu FF, Pinho MC, et al. (2021): Predi
 [10.1016/j.parkreldis.2021.02.0260](https://doi.org/10.1016/j.parkreldis.2021.02.0260)
 
 ## Files
+### Subject cohorts
+- `subject_lists.xlsx` contains the subject and session IDs from the [PPMI database](https://www.ppmi-info.org/) for the images included in our analysis.
 ### Model selection and hyperparameter optimization
 - `updrstotal_prediction.py` is the main script for training and evaluating a set of models to predict MDS-UPDRS total score at a specified time, using a specified set of rs-fMRI inputs. Model hyperparameters are optimized using a random search, and model performance is evaluated using nested cross-validation. 
 - `updrstotal_prediction_loso.py` performs a leave-one-site-out version of this analysis
 ### Measurment of test performance 
 - After running these 2 scripts, `collect_results.py` and `collect_results_loso.py` identify the best performing models and hyperparameter configurations for
 each target and feature type based on mean inner cross-validation performance. Evaluate these models on the held-out data of the outer cross-validation loop. 
+
+## Additional resources
+To further facilitate reproducibility, we have made some [additional files available here](https://cloud.biohpc.swmed.edu/index.php/s/LsiC2KetzJFNy8w). These include:
+- Our derived ReHo and fALFF maps
+- Docker image with our custom fMRI preprocessing pipeline
+- Our modified [Schaefer 2018](https://pubmed.ncbi.nlm.nih.gov/28981612/) parcellation with subcortical ROIs and the anatomical ROI labels used in our figures. The BASC197 and BASC444 parcellations are available through nilearn. 
 
 ## Main dependencies
 * nilearn >= 0.6.2
